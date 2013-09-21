@@ -1,0 +1,216 @@
+<!doctype html>
+<html lang="en">
+
+	<head>
+		<meta charset="utf-8">
+
+		<title>Introduction to AngularJS</title>
+
+		<meta name="description" content="Introduction to AngularJS.">
+		<meta name="author" content="Terence Carroll">
+
+		<meta name="apple-mobile-web-app-capable" content="yes" />
+		<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+		<link rel="stylesheet" href="css/reveal.min.css">
+		<link rel="stylesheet" href="css/theme/default.css" id="theme">
+
+		<!-- For syntax highlighting -->
+		<link rel="stylesheet" href="lib/css/zenburn.css">
+
+		<!-- If the query includes 'print-pdf', use the PDF print sheet -->
+		<script>
+			document.write( '<link rel="stylesheet" href="css/print/' + ( window.location.search.match( /print-pdf/gi ) ? 'pdf' : 'paper' ) + '.css" type="text/css" media="print">' );
+		</script>
+
+		<!--[if lt IE 9]>
+		<script src="lib/js/html5shiv.js"></script>
+		<![endif]-->
+	</head>
+
+	<body>
+
+		<div class="reveal">
+
+s			<div class="slides">
+				<section>
+					<h1>Introduction to AngularJS</h1>
+					<h3>Superheroic JavaScript MVC/MVVM/MVW Framework</h3>
+					<p><small><a href="http://twitter.com/thack">Terence Carroll<br/>@thack</a></small></p>
+				</section>
+
+                <section>
+                    <section>
+                        <h2>Where?</h2>
+                        <p><a href="http://angularjs.org/">AngularJS</a> was created by
+                            <a href="http://misko.hevery.com">Misko Hevery</a> in 2009<br/>
+                            while working on Google Feedback. After 6 months,<br/>
+                            there was 17,000 lines of code.</p>
+                        <p>He said that he could rewrite the project using<br/>his framework in
+                            only 2 weeks.</p>
+                    </section>
+                    
+                    <section>
+                        <h2>What Happened?</h2>
+                        <p>He missed his deadline.</p>
+                        <p>It took 3 weeks and 1,500 lines of code.</p>
+                    </section>
+                    
+                    <section>
+                        <h2>Where Is It Today?</h2>
+                        <p>Clearly, he was on to something.</p>
+                        <p>Over time, it became an official Google project with open source
+                            contributors from throughtout the world.</p>
+                    </section>
+                </section>
+                
+                <section>
+                    <section>
+                        <h2>Why AngularJS?</h2>
+                        <p>We are in a <b>Golden Age</b> of JavaScript frameworks.</p>
+                        <ul>
+                            <li>Knockout</li>
+                            <li>Backbone.JS</li>
+                            <li>AngularJS</li>
+                            <li>Ember</li>
+                        </ul>
+                    </section>
+                    
+                    <section>
+                        <h2>Why AngularJS?</h2>
+                        <img src="lib/img/comparison.jpg" width="820" height="650"/>
+                    </section>
+                    
+                    <section>
+                        <h2>Why AngularJS?</h2>
+                        <p>Angular provides:</p>
+                        <ul>
+                            <li>Model, View, Whatever (MVC, MVVM, MVP, MVW)</li>
+                            <li>Declarative UI (User Interface)</li>
+                            <ul>
+                                <li>Data Binding</li>
+                                <li>Templates</li>
+                                <li>Directives</li>
+                            </ul>
+                            <li>Dependency Injection</li>
+                            <li>Testing</li>
+                            <li>Animations</li>
+                        </ul>
+                    </section>
+                    
+                    <section>
+                        <h2>Why AngularJS?</h2>
+                        <p>Angular does not have:</p>
+                        <ul>
+                            <li>UI Component Set</li>
+                            <li>Plain HTML or Enhanced HTML</li>
+                            <li>Add Your Own:</li>
+                            <ul>
+                                <li>CSS Library</li>
+                                <ul>
+                                    <li><a href="http://getbootstrap.com">BootStrap</a></li>
+                                    <li><a href="http://foundation.zurb.com">Foundation</a></li>
+                                </ul>
+                                <li>UI Components</li>
+                                <ul>
+                                    <li><a href="http://mgcrea.github.io/angular-strap/">AngularStrap</a></li>
+                                    <li><a href="http://angular-ui.github.io">AngularUI</a></li>
+                                </ul>
+                            </ul>
+                        </ul>
+                    </section>
+                </section>
+                
+                <section>
+                    <h2>Demo Time</h2>
+                </section>
+                
+                <section>
+                    <section>
+                        <h2>Getting Started</h2>
+                        <ul>
+                            <li>Books:</li>
+                            <ul>
+                                <li><a href="http://amzn.com/B00C9MYA7G">AngularJS</a></li>
+                                <ul>
+                                    <li>Introducton</li>
+                                    <li>Similar to Free Documentation</li>
+                                </ul>
+                                <li><a href="http://amzn.com/B00EQ67J30">Mastering Web Application Development with AngularJS</a></li>
+                                <ul>
+                                    <li>Large Scale Applications</li>
+                                    <li>Intermediate &amp; Advanced</li>
+                                </ul>
+                            </ul>
+                        </ul>
+                    </section>
+                    
+                    <section>
+                        <h2>Getting Started</h2>
+                        <ul>
+                            <li>Blogs:</li>
+                            <ul>
+                                <li>Joel Hooks</li>
+                                <ul>
+                                    <li><a href="http://joelhooks.com/blog/2013/08/03/learn-angularjs-in-a-weekend/">Learn AngularJS This Weekend</a></li>
+                                </ul>
+                                <li>John Lindquist</li>
+                                <ul>
+                                    <li>Free videos</li>
+                                    <li><a href="http://egghead.io">Egghead.IO</a></li>
+                                </ul>
+                            </ul>
+                            <li>Conference:</li>
+                            <ul>
+                                <li><a href="http://www.ng-conf.org">ng-conf in Salt Lake City, UT</a></li>
+                            </ul>
+                        </ul>
+                    </section>
+                    
+                </section>
+
+<!--
+Session Description:
+• Declarative UI, Data-binding, Repeaters, Directives, & Filters 
+• MVC, Dependency Injection, Testability, & Modules
+• Services & Providers
+• Getting Started Resources
+-->
+
+			</div>
+
+		</div>
+
+		<script src="lib/js/head.min.js"></script>
+		<script src="js/reveal.min.js"></script>
+
+		<script>
+
+			// Full list of configuration options available here:
+			// https://github.com/hakimel/reveal.js#configuration
+			Reveal.initialize({
+				controls: true,
+				progress: true,
+				history: true,
+				center: true,
+
+				theme: Reveal.getQueryHash().theme, // available themes are in /css/theme
+				transition: Reveal.getQueryHash().transition || 'default', // default/cube/page/concave/zoom/linear/fade/none
+
+				// Optional libraries used to extend on reveal.js
+				dependencies: [
+					{ src: 'lib/js/classList.js', condition: function() { return !document.body.classList; } },
+					{ src: 'plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: 'plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } },
+					{ src: 'plugin/zoom-js/zoom.js', async: true, condition: function() { return !!document.body.classList; } },
+					{ src: 'plugin/notes/notes.js', async: true, condition: function() { return !!document.body.classList; } }
+				]
+			});
+
+		</script>
+
+	</body>
+</html>
