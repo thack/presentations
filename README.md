@@ -6,6 +6,7 @@ Presentations
 September 17, 2013
 * Presentation: http://thack.github.io/presentations/AngularJS/Introduction/Preso/
 * Demo: http://thack.github.io/presentations/AngularJS/Introduction/Demo/src/
+* GitHub: https://github.com/thack/presentations/tree/master/AngularJS/Introduction
 
 ## PhantomJS
 ### VegasJS + NodeJS meetup
