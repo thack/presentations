@@ -5,7 +5,7 @@ Presentations
 ### VegasJS meetup
 September 17, 2013
 * Presentation: http://thack.github.io/presentations/AngularJS/Introduction/Preso/
-* Demo: http://thack.github.io/presentations/AngularJS/Introduction/Demo/
+* Demo: http://thack.github.io/presentations/AngularJS/Introduction/Demo/src/
 
 ## PhantomJS
 ### VegasJS + NodeJS meetup
