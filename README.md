@@ -1,6 +1,28 @@
 Presentations
 =============
 
+## Ionic Framework
+### LA PhoneGap
+March 31, 2016
+
+* http://thack.github.io/angularu-present/
+* http://thack.github.io/presentations/LAPhoneGap/ionic2.pdf
+
+### VegasJS
+July 21, 2015
+
+http://thack.github.io/angularu-present/
+
+### AngularU
+June 24-25, 2015
+
+http://thack.github.io/angularu-present/
+
+### Angular Vegas
+May 6, 2015
+
+http://thack.github.io/ionic-present/
+
 ## AngularJS
 ### VegasJS meetup
 September 17, 2013
@@ -15,25 +37,3 @@ July 9, 2013
 
 * PDF: http://thack.github.io/presentations/PhantomJS/PhantomJS.pdf
 * Keynote: http://thack.github.io/presentations/PhantomJS/PhantomJS.key
-
-## Ionic Framework
-### Angular Vegas
-May 6, 2015
-
-http://thack.github.io/ionic-present/
-
-### AngularU
-June 24-25, 2015
-
-http://thack.github.io/angularu-present/
-
-### VegasJS
-July 21, 2015
-
-http://thack.github.io/angularu-present/
-
-### LA PhoneGap
-March 31, 2016
-
-* http://thack.github.io/angularu-present/
-* http://thack.github.io/presentations/LAPhoneGap/ionic2.pdf
