@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="vegasJS">
+<head>
+    <link rel="stylesheet" type="text/css" href="assets/app.css"/>
+    <script type="text/javascript" src="../vendor/angular/angular.min.js"></script>
+    <script type="text/javascript" src="app/app.js"></script>
+</head>
+<body ng-controller="AppController">
+    <img id="logo" src="assets/img/logo.png"/>
+    
+    <div class="example">
+        <div id="first" ng-show="showDiv">Box 1</div>
+        <div id="second" ng-show="!showDiv">Box 2</div>
+        <div id="third" ng-hide="showDiv">Box 3</div>
+        <button ng-click="buttonClickOne()">Demo 1</button>
+    </div>
+    
+    <div class="example">
+        <div ng-class="className">{{className}}</div>
+        <button id="fourth-button" ng-click="buttonClickTwo('bluish')">Demo 2</button>
+    </div>
+    
+    <div class="example" id="fifth" ng-switch="divNumber">
+        <div id="e3a" ng-switch-when="1">
+            This is one.
+            <button ng-click="buttonClickThree(2)">Button 1</button>
+        </div>
+        <div id="e3b" ng-switch-when="2">
+            This is two.
+            <button ng-click="buttonClickThree(0)">Button 2</button>
+        </div>
+        <div id="e3c" ng-switch-default>
+            This is the default.
+            <button ng-click="buttonClickThree(1)">Button 3</button>
+        </div>
+    </div>
+    
+</body>
+</html>
